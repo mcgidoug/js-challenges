@@ -4,7 +4,7 @@ arr2 = [3, 4];
 function arrayPlusArray(arr1, arr2) {
   let sum = 0;
 
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < arr1.length; i++) {
     const arr1Value = arr1[i];
     const arr2Value = arr2[i];
 
