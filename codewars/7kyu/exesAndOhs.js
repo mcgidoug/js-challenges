@@ -5,7 +5,7 @@ function XO(str) {
   let countX = 0;
   let countO = 0;
 
-  for (let i = 0; i < str.length; i++) {
+  for (let i = 0; i < lowerStr.length; i++) {
     if (lowerStr[i] === "x") {
       countX++;
     }
