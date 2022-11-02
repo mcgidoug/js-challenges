@@ -1,4 +1,4 @@
-str = "abcde, cde";
+str = "abcde, cdeeef";
 
 function solution(str) {
   let strArr = str.split(",");
@@ -16,4 +16,4 @@ function solution(str) {
 
 console.log(solution(str));
 
-// this solution works, but the challenge requires to arguments...
+// this solution ONLY interprets the last letter of each string (MISINTERPRETED)
