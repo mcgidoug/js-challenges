@@ -11,5 +11,3 @@ function descendingOrder(n) {
 }
 
 console.log(descendingOrder(n));
-
-// expected: [1, 2, 3, 4]
