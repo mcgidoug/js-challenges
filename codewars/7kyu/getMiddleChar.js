@@ -1,13 +1,17 @@
-let s = "handbnanna";
+let s = "helllo";
 
 function getMiddle(s) {
   let position;
   let length;
 
+  //   if odd
   if (s.length % 2 == 1) {
     position = s.length / 2;
     length = 1;
-  } else {
+  }
+
+  //   if even
+  else {
     position = s.length / 2 - 1;
     length = 2;
   }
@@ -16,3 +20,6 @@ function getMiddle(s) {
 }
 
 console.log(getMiddle(s));
+
+// hello returns l
+// helllo returns ll
