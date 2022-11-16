@@ -18,7 +18,6 @@ function solution(number) {
       array.push(total[j]);
     }
   }
-
   // sums numbers that are div by 3 or 5
   for (let q = 0; q < array.length; q++) {
     final = final + array[q];
