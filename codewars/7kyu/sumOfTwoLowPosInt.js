@@ -8,8 +8,9 @@ function sumTwoSmallestNumbers(numbers) {
   for (let i = 0; i < sortedNumbers.length; i++) {
     return sortedNumbers[0] + sortedNumbers[1];
   }
-
-  return sortedNumbers;
 }
 
 console.log(sumTwoSmallestNumbers(numbers));
+
+// expected 13
+// adds two lowest numbers
