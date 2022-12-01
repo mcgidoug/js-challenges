@@ -1,13 +1,19 @@
-function arrayDiff(a, b) {
-    let i = 0;
-    while (i < a.length) {
-      if (a[i] === b[i]) {
-        a.splice(i, 1);
-      } else {
-        ++i;
-      }
-    }
-    return a;
+let str = "the-stealth-warrior";
+
+function toCamelCase(str) {
+  let strSplit = str.split("-");
+  let upperLetter = strSplit.map((x) => x.charAt(0).toUpperCase());
+  let endChar = strSplit.map((x) => x.substr(1));
+  let draftStr = "";
+
+  for (let i = 0; i < upperLetter.length; i++) {
+    draftStr = draftStr + upperLetter[i] + endChar[i];
   }
 
-  console.log(arrayDiff([1,2,2], [2]))
+  let finalStrPt1 = draftStr.charAt(0).toLowerCase();
+  let finalStrPt2 = draftStr.substr();
+
+  return finalStrPt1;
+}
+
+console.log(toCamelCase(str));
