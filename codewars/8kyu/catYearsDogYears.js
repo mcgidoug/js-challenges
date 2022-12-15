@@ -16,3 +16,28 @@ var humanYearsCatYearsDogYears = function (humanYears) {
 
   return [humanYears, 24 + extraCatYears, 24 + extraDogYears];
 };
+
+// or...
+
+var humanYearsCatYearsDogYears = function (humanYears) {
+  let human = humanYears;
+  let cat = 0;
+  let dog = 0;
+  // for one year
+  if (humanYears === 1) {
+    return [1, 15, 15];
+  }
+  // for two years
+  if (humanYears === 2) {
+    return [2, 24, 24];
+  }
+  // +=3 years
+  else {
+    let humanCat = (humanYears - 2) * 4;
+    let humanDog = (humanYears - 2) * 5;
+    let human = humanYears;
+    let cat = 24 + humanCat;
+    let dog = 24 + humanDog;
+    return [human, cat, dog];
+  }
+};
