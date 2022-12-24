@@ -7,3 +7,9 @@ function solution(str, ending) {
 }
 
 console.log(solution("string", "ing"));
+
+// or...
+
+function solution(str, ending) {
+  return str.endsWith(ending);
+}
