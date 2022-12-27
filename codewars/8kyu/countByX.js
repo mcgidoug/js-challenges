@@ -12,3 +12,4 @@ function countBy(x, n) {
   
   console.log(countBy(3, 5));
   
+  // [3, 6, 9, 12, 15]
