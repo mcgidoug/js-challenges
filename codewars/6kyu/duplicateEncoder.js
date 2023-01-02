@@ -18,7 +18,6 @@ function duplicateEncode(word) {
 console.log(duplicateEncode("recede")); // "()()()"
 console.log(duplicateEncode("(( @")); // "))(("
 console.log(duplicateEncode("din")); // "((("
-// still a bit lost on the following 3...
-console.log(duplicateEncode("Success")); // ")()))()"
 console.log(duplicateEncode("Hello World")); // "(()))(()()("
 console.log(duplicateEncode("ooldd world")); // ")))))(()())"
+console.log(duplicateEncode("Success")); // ")())())"
