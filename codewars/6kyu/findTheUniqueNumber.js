@@ -37,3 +37,4 @@ const count = arr.reduce((counts, element) => {
 }, {});
 
 console.log(count); // { 1: 5, 2: 1 }
+
