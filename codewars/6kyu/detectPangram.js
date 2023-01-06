@@ -10,3 +10,11 @@ function isPangram(string){
   // false
   console.log(isPangram("The quick brown fox jumps over the lazy dog"))
   // true
+
+  // ---------------------- USING MAP ----------------------
+  function hasAllLetters(str) {
+    const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+    const lowercaseStr = str.toLowerCase();
+    return alphabet.split('').map(letter => lowercaseStr.includes(letter)).every(Boolean);
+  }
+  
