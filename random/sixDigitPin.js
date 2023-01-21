@@ -11,3 +11,15 @@ function randomNumber() {
   }
 
 console.log(randomNumber())
+
+// 2 other methods 
+
+myArray.forEach((element, index, array) => {
+    if (element === undefined) {
+      array[index] = Math.floor(Math.random() * 10);
+    }
+  });
+
+  // --------------------------------------------------------
+
+  myArray = myArray.map(val => val === undefined ? Math.floor(Math.random() * 10) : val)
