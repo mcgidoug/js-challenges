@@ -7,3 +7,5 @@ function getDescription() {
 }
 
 console.log(getDescription());
+
+// use this for class / constructor function reference
